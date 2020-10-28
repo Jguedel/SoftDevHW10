@@ -3,31 +3,26 @@ public class Small implements Fighter {
 	private int health;
 	private int attack;
 	private int speed;
+
 	public Small(int health, int attack, int speed) {
 		this.health = health;
 		this.attack = attack;
 		this.speed = speed;
 	}
+
 	public int getHealth() {
 		// TODO Auto-generated method stub
 		return health;
 	}
-	
+
 	public int getAttack() {
 		// TODO Auto-generated method stub
 		return attack;
 	}
-	
+
 	public int getSpeed() {
 		// TODO Auto-generated method stub
 		return speed;
-	}
-
-	public void setStat(int health, int attack, int speed) {
-		// TODO Auto-generated method stub
-		this.health = health;
-		this.attack = attack;
-		this.speed = speed;
 	}
 
 	public String getStat() {

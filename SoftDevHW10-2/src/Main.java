@@ -57,8 +57,8 @@ public class Main extends Composite {
 				String style = Style.getText();
 				String type = Body.getText();
 				if (!style.equals("Fighting Style") && !type.equals("Body Type")) {
-					System.out.println(type+style);
-					ans.setText(Function.Stats(type,style));
+					System.out.println(type + style);
+					ans.setText(Function.Stats(type, style));
 				} else
 					ans.setText("Please make sure you have both Fighting Style and Body Type fields are filled out.");
 

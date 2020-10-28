@@ -25,13 +25,6 @@ public class Medium implements Fighter {
 		return speed;
 	}
 
-	public void setStat(int health, int attack, int speed) {
-		// TODO Auto-generated method stub
-		this.health = health;
-		this.attack = attack;
-		this.speed = speed;
-	}
-
 	public String getStat() {
 		// TODO Auto-generated method stub
 		String ans = "Health: " + health + "\nAttack: " + attack + "\nSpeed: " + speed;

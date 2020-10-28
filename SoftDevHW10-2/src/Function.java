@@ -13,7 +13,7 @@ public class Function {
 				Archer archer = new Archer(user);
 				ans = archer.getSkills();
 			} else
-				ans = user.getStat() +"\nno special skills";
+				ans = user.getStat() + "\nno special skills";
 		} else if (typeCheck.equals("Medium")) {
 			Medium user = new Medium(100, 15, 1);
 			if (style.equals("Wizard")) {
@@ -23,8 +23,8 @@ public class Function {
 				Archer archer = new Archer(user);
 				ans = archer.getSkills();
 			} else
-				ans = user.getStat() +"\nno special skills";
-			
+				ans = user.getStat() + "\nno special skills";
+
 		} else if (typeCheck.equals("Large")) {
 			Large user = new Large(125, 10, 5);
 			if (style.equals("Wizard")) {
@@ -34,9 +34,9 @@ public class Function {
 				Archer archer = new Archer(user);
 				ans = archer.getSkills();
 			} else
-				ans = user.getStat() +"\nno special skills";
+				ans = user.getStat() + "\nno special skills";
 		}
-		
+
 		return ans;
 	}
 }
